@@ -13,6 +13,11 @@
 		18DC1CB8206698A100F44B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DC1CB7206698A100F44B3D /* Assets.xcassets */; };
 		18DC1CBB206698A100F44B3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DC1CB9206698A100F44B3D /* LaunchScreen.storyboard */; };
 		18DC1CC6206698A200F44B3D /* hcsbk_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC1CC5206698A200F44B3D /* hcsbk_calculatorTests.swift */; };
+		18DD93712076139100BE14C3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD93702076139100BE14C3 /* TableViewController.swift */; };
+		18DD937320761CB100BE14C3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD937220761CB100BE14C3 /* TableViewCell.swift */; };
+		18DD93752077187500BE14C3 /* TableViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DD93742077187500BE14C3 /* TableViewItem.swift */; };
+		1E2149FEB52DCE59FF84980E /* Pods_hcsbk_calculatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC6F025E809186062906D71 /* Pods_hcsbk_calculatorTests.framework */; };
+		476CA445CEAEB02A3C401D4A /* Pods_hcsbk_calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBDEDF5137E04EE3492A98ED /* Pods_hcsbk_calculator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,15 @@
 		18DC1CC1206698A200F44B3D /* hcsbk-calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hcsbk-calculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DC1CC5206698A200F44B3D /* hcsbk_calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hcsbk_calculatorTests.swift; sourceTree = "<group>"; };
 		18DC1CC7206698A200F44B3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18DD93702076139100BE14C3 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		18DD937220761CB100BE14C3 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		18DD93742077187500BE14C3 /* TableViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewItem.swift; sourceTree = "<group>"; };
+		202410E40F7E4A068A25CAC5 /* Pods-hcsbk-calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hcsbk-calculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-hcsbk-calculator/Pods-hcsbk-calculator.release.xcconfig"; sourceTree = "<group>"; };
+		3B4AA4B6183447AB4E5BF075 /* Pods-hcsbk-calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hcsbk-calculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hcsbk-calculator/Pods-hcsbk-calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		6E0AD8CCF6BBB8336AEEFBA5 /* Pods-hcsbk-calculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hcsbk-calculatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hcsbk-calculatorTests/Pods-hcsbk-calculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		7143D2AE6F398782C53BC9E4 /* Pods-hcsbk-calculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hcsbk-calculatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hcsbk-calculatorTests/Pods-hcsbk-calculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BAC6F025E809186062906D71 /* Pods_hcsbk_calculatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hcsbk_calculatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDEDF5137E04EE3492A98ED /* Pods_hcsbk_calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hcsbk_calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				476CA445CEAEB02A3C401D4A /* Pods_hcsbk_calculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2149FEB52DCE59FF84980E /* Pods_hcsbk_calculatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +78,8 @@
 				18DC1CAF206698A100F44B3D /* hcsbk-calculator */,
 				18DC1CC4206698A200F44B3D /* hcsbk-calculatorTests */,
 				18DC1CAE206698A100F44B3D /* Products */,
+				CA75E4D7D198327BBA64D062 /* Pods */,
+				B6BB1DFAE8297AF150B8E1E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +97,9 @@
 			children = (
 				18DC1CB0206698A100F44B3D /* AppDelegate.swift */,
 				18DC1CB2206698A100F44B3D /* ViewController.swift */,
+				18DD93702076139100BE14C3 /* TableViewController.swift */,
+				18DD937220761CB100BE14C3 /* TableViewCell.swift */,
+				18DD93742077187500BE14C3 /* TableViewItem.swift */,
 				18DC1CB4206698A100F44B3D /* Main.storyboard */,
 				18DC1CB7206698A100F44B3D /* Assets.xcassets */,
 				18DC1CB9206698A100F44B3D /* LaunchScreen.storyboard */,
@@ -96,6 +117,26 @@
 			path = "hcsbk-calculatorTests";
 			sourceTree = "<group>";
 		};
+		B6BB1DFAE8297AF150B8E1E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBDEDF5137E04EE3492A98ED /* Pods_hcsbk_calculator.framework */,
+				BAC6F025E809186062906D71 /* Pods_hcsbk_calculatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA75E4D7D198327BBA64D062 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4AA4B6183447AB4E5BF075 /* Pods-hcsbk-calculator.debug.xcconfig */,
+				202410E40F7E4A068A25CAC5 /* Pods-hcsbk-calculator.release.xcconfig */,
+				7143D2AE6F398782C53BC9E4 /* Pods-hcsbk-calculatorTests.debug.xcconfig */,
+				6E0AD8CCF6BBB8336AEEFBA5 /* Pods-hcsbk-calculatorTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18DC1CCA206698A200F44B3D /* Build configuration list for PBXNativeTarget "hcsbk-calculator" */;
 			buildPhases = (
+				51A1ABD05F7BC72B25FAC824 /* [CP] Check Pods Manifest.lock */,
 				18DC1CA9206698A100F44B3D /* Sources */,
 				18DC1CAA206698A100F44B3D /* Frameworks */,
 				18DC1CAB206698A100F44B3D /* Resources */,
+				224F2C45268F8E3972465C2D /* [CP] Embed Pods Frameworks */,
+				D4F337B0410B2DC21F844DAD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18DC1CCD206698A200F44B3D /* Build configuration list for PBXNativeTarget "hcsbk-calculatorTests" */;
 			buildPhases = (
+				2428CBD1DA6E29CBE57298D3 /* [CP] Check Pods Manifest.lock */,
 				18DC1CBD206698A200F44B3D /* Sources */,
 				18DC1CBE206698A200F44B3D /* Frameworks */,
 				18DC1CBF206698A200F44B3D /* Resources */,
+				AEEB6178B967DB3F99118068 /* [CP] Embed Pods Frameworks */,
+				2C0D678E37FA0178873FFBD8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +193,7 @@
 				TargetAttributes = {
 					18DC1CAC206698A100F44B3D = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					18DC1CC0206698A200F44B3D = {
@@ -194,13 +242,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		224F2C45268F8E3972465C2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-hcsbk-calculator/Pods-hcsbk-calculator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/libxlsxwriter/xlsxwriter.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/xlsxwriter.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hcsbk-calculator/Pods-hcsbk-calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2428CBD1DA6E29CBE57298D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hcsbk-calculatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C0D678E37FA0178873FFBD8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hcsbk-calculatorTests/Pods-hcsbk-calculatorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51A1ABD05F7BC72B25FAC824 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hcsbk-calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEEB6178B967DB3F99118068 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-hcsbk-calculatorTests/Pods-hcsbk-calculatorTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/libxlsxwriter/xlsxwriter.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/xlsxwriter.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hcsbk-calculatorTests/Pods-hcsbk-calculatorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4F337B0410B2DC21F844DAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hcsbk-calculator/Pods-hcsbk-calculator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18DC1CA9206698A100F44B3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				18DC1CB3206698A100F44B3D /* ViewController.swift in Sources */,
+				18DD93712076139100BE14C3 /* TableViewController.swift in Sources */,
+				18DD93752077187500BE14C3 /* TableViewItem.swift in Sources */,
 				18DC1CB1206698A100F44B3D /* AppDelegate.swift in Sources */,
+				18DD937320761CB100BE14C3 /* TableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,14 +507,19 @@
 		};
 		18DC1CCB206698A200F44B3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4AA4B6183447AB4E5BF075 /* Pods-hcsbk-calculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EYR44AXG5E;
 				INFOPLIST_FILE = "hcsbk-calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kz.algakzru.hcsbk-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,14 +527,18 @@
 		};
 		18DC1CCC206698A200F44B3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 202410E40F7E4A068A25CAC5 /* Pods-hcsbk-calculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EYR44AXG5E;
 				INFOPLIST_FILE = "hcsbk-calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kz.algakzru.hcsbk-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -381,6 +546,7 @@
 		};
 		18DC1CCE206698A200F44B3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7143D2AE6F398782C53BC9E4 /* Pods-hcsbk-calculatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +564,7 @@
 		};
 		18DC1CCF206698A200F44B3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E0AD8CCF6BBB8336AEEFBA5 /* Pods-hcsbk-calculatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
